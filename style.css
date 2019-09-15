@@ -1,0 +1,47 @@
+#alertbox {
+	height: auto;
+}
+
+#video-area,
+#video-area iframe {
+	height: 50%;
+	width: 50%;
+}
+
+#media-label {
+	top: 50%;
+	right: unset;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	text-align: initial;
+}
+
+#media-label.marquee {
+	width: 49%;
+}
+
+#media-label-loading,
+#body.layout-above #image-wrap {
+	display: none;
+}
+
+#body.layout-above #text-wrap {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#alert-text {
+	padding: 0;
+}
+
+#body.layout-above h1 {
+	padding-top: 1%;
+}
+
+#body.layout-above h2 {
+	padding-bottom: 1%;
+}
+
+#body.layout-above h1.hide,
+#body.layout-above h1.hide + h2 {
+	padding: 0;
+}
