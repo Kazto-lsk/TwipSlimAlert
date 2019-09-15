@@ -8,16 +8,13 @@
 	width: 50%;
 }
 
-#media-label {
+#body.layout-above #media-label {
 	top: 50%;
 	right: unset;
+	width: 49%;
 	margin-left: 0.5%;
 	margin-right: 0.5%;
 	text-align: initial;
-}
-
-#media-label.marquee {
-	width: 49%;
 }
 
 #media-label-loading,
